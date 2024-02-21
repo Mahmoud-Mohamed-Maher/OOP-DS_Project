@@ -14,7 +14,7 @@
 #include<vector>
 #include"Bank.h"
 #include"Comparer.h"
-#include <iomanip> // for setw
+#include <iomanip> 
 
 using namespace std;
 int Teller::Count = 1;
@@ -24,7 +24,7 @@ int main()
    
 
     Bank *bank = new Bank();
-    bank->ReadCustomersFromFile("test.txt"); // Assuming customer data is stored in "customer_data.txt"
+    bank->ReadCustomersFromFile("test.txt");
     bank->MainMenu();
 
 
