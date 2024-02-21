@@ -3,7 +3,6 @@
 #include <cstdlib>
 #include <queue>
 #include<cmath> 
-#include "Customer.h"
 #include "Teller.h"
 #include <list>
 #include<string>

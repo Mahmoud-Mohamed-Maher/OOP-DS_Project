@@ -51,12 +51,16 @@ public:
 			case 2:
 				DisplayCustomer();
 				cin >> key;
+				system("cls");
+
 				break;
 			case 3:
 				CalcAvgServiceTime();
 				CalcAvgWaitTime();
 				DisplayTellerInfo();
 				cin >> key;
+				system("cls");
+
 				break;
 			}
 
